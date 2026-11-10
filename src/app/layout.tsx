@@ -1,12 +1,48 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
+const siteTitle = "AuraDental Clinic & Implant Centre | Gentle, World-Class Dentistry";
+const siteDescription =
+  "NABH Accredited & ISO Certified dental care across Bengaluru & Mumbai. 100% painless water-laser dentistry, Swiss implants, clear aligners, and transparent pricing.";
+const productionDomain = "https://dental-clinic-five-beta.vercel.app";
+
 export const metadata: Metadata = {
-  title: "AuraDental Clinic & Implant Centre | Gentle, World-Class Dentistry",
-  description:
-    "NABH Accredited & ISO Certified dental care across Bengaluru & Mumbai. 100% painless water-laser dentistry, Swiss implants, clear aligners, and transparent pricing.",
+  metadataBase: new URL(productionDomain),
+  title: siteTitle,
+  description: siteDescription,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    url: "/",
+    siteName: "AuraDental Clinic & Implant Centre",
+    locale: "en_IN",
+    type: "website",
+    images: [
+      {
+        url: "/images/opengraph-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "AuraDental Clinic & Implant Centre - Gentle, World-Class Dentistry in Bengaluru & Mumbai",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+    images: ["/images/opengraph-image.jpg"],
+  },
   icons: {
-    icon: "/images/logo.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
