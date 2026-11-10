@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none">
+  <!-- Icon Mark -->
+  <rect x="2" y="4" width="40" height="40" rx="10" fill="#008378"/>
+  <path d="M22 13C16.8 13 13.5 16.5 13.5 20.5C13.5 24.2 15.8 27.5 17 31C18.2 34.2 19 36.5 20.5 36.5C22 36.5 22.3 32.5 22.5 30.5C22.6 29 23.4 29 23.5 30.5C23.7 32.5 24 36.5 25.5 36.5C27 36.5 27.8 34.2 29 31C30.2 27.5 32.5 24.2 32.5 20.5C32.5 16.5 29.2 13 22 13Z" fill="#ffffff" fill-opacity="0.95"/>
+  <circle cx="31" cy="14" r="3.5" fill="#6df5e1"/>
+  
+  <!-- Text Brand -->
+  <text x="52" y="27" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="700" font-size="20" fill="#00685f" letter-spacing="-0.02em">AuraDental</text>
+  <circle cx="166" cy="23" r="2.5" fill="#006b5f"/>
+  <text x="53" y="39" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="600" font-size="8.5" fill="#3d4947" letter-spacing="0.1em">CLINIC &amp; IMPLANT CENTRE</text>
+</svg>
+

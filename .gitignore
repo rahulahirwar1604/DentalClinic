@@ -1,0 +1,61 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Local env files
+.env
+.env.*
+.env*.local
+*.env
+
+# Keys and Credentials
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+id_rsa*
+credentials.json
+
+# Production and distribution
+/build
+/dist/
+
+# Vercel
+.vercel
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Databases and Backups
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.sql
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
